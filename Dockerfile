@@ -34,8 +34,9 @@ RUN npm install -g npm && \
     npm install -g typings@2.1.0 && \
     npm install -g gulp-plumber@1.1.0
 
-RUN cd /root/.bower && \
-    bower install --config.interactive=false --allow-root angular#~1.5.8 && \
+WORKDIR /root/.bower
+
+RUN bower install --config.interactive=false --allow-root angular#~1.5.8 && \
     bower install --config.interactive=false --allow-root angular-mocks#~1.5.8 && \
     bower install --config.interactive=false --allow-root angular-jwt#~0.0.9 && \
     bower install --config.interactive=false --allow-root angular-route#~1.5.8 && \
@@ -56,5 +57,7 @@ RUN cd /root/.bower && \
     bower install --config.interactive=false --allow-root highcharts#~5.0.6 && \
     bower install --config.interactive=false --allow-root angular-translate#~2.13.1 && \
     bower install --config.interactive=false --allow-root angular-touch#~1.5.11
+
+WORKDIR /
 
 CMD ["/bin/bash"]
