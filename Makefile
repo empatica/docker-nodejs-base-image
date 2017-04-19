@@ -12,5 +12,5 @@ push:
 	docker push $(IMAGE):$(VERSION)
 
 release: build push
-	docker tag -f $(IMAGE):$(VERSION) $(IMAGE):latest
+	docker tag $(IMAGE):$(VERSION) $(IMAGE):latest
 	docker push $(IMAGE):latest
