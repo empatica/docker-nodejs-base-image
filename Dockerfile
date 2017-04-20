@@ -56,7 +56,9 @@ RUN bower install --config.interactive=false --allow-root angular#~1.5.8 && \
     bower install --config.interactive=false --allow-root angular-recaptcha#~3.0.3 && \
     bower install --config.interactive=false --allow-root highcharts#~5.0.6 && \
     bower install --config.interactive=false --allow-root angular-translate#~2.13.1 && \
-    bower install --config.interactive=false --allow-root angular-touch#~1.5.11
+    bower install --config.interactive=false --allow-root angular-touch#~1.5.11 && \
+    bower install --config.interactive=false --allow-root "git://github.com/monospaced/bower-qrcode-generator.git#v0.2.0" && \
+    bower install --config.interactive=false --allow-root angular-qrcode#~7.2.0
 
 WORKDIR /
 
