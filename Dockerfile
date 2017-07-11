@@ -18,7 +18,7 @@ RUN npm install -g npm && \
     npm install -g gulp-rename@1.2.2 && \
     npm install -g gulp-replace@0.6.1 && \
     npm install -g gulp-sass@3.1.0 && \
-    npm install -g gulp-typescript@3.2.0 && \
+    npm install -g gulp-typescript@3.1.7 && \
     npm install -g gulp-uglify@2.0.0 && \
     npm install -g gulp-uglifycss@1.0.8 && \
     npm install -g gulp-util@3.0.8 && \
@@ -30,7 +30,7 @@ RUN npm install -g npm && \
     npm install -g node-gyp@3.6.2 \
     npm install -g node-pre-gyp@0.6.36 \
     npm install -g require-dir@0.3.2 && \
-    npm install -g typescript@2.4.1 && \
+    npm install -g typescript@2.1.6 && \
     npm install -g typings@2.1.1 && \
     npm install -g wiredep@4.0.0 && \
     npm install -g yargs@8.0.2 && \
