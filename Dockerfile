@@ -6,8 +6,7 @@ RUN apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-RUN npm install -g npm && \
-    npm install -g bower@1.8.0 && \
+RUN npm install -g bower@1.8.0 && \
     npm install -g del@3.0.0 && \
     npm install -g gulp@3.9.1 && \
     npm install -g gulp-concat@2.6.1 && \
@@ -37,6 +36,8 @@ RUN npm install -g npm && \
 
 WORKDIR /root/.bower
 
+# Workaround for bower so it won't pick package.json and thrown an error. We'll deprecate bower soon
+RUN echo "{\"name\":\"empa\"}" > bower.json
 RUN bower install --config.interactive=false --allow-root angular#~1.5.9 && \
     bower install --config.interactive=false --allow-root angular-mocks#~1.5.8 && \
     bower install --config.interactive=false --allow-root angular-jwt#~0.0.9 && \
