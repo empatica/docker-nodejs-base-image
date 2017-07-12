@@ -14,7 +14,7 @@ RUN npm install -g npm && \
     npm install -g gulp-htmlmin@3.0.0 && \
     npm install -g gulp-if@2.0.2 && \
     npm install -g gulp-ng-constant@1.1.0 && \
-    npm install -g gulp-plumber@1.1.0
+    npm install -g gulp-plumber@1.1.0 && \
     npm install -g gulp-rename@1.2.2 && \
     npm install -g gulp-replace@0.6.1 && \
     npm install -g gulp-sass@3.1.0 && \
@@ -27,13 +27,13 @@ RUN npm install -g npm && \
     npm install -g karma-coverage@1.1.1 && \
     npm install -g karma-jasmine@1.1.0 && \
     npm install -g main-bower-files@2.13.1 && \
-    npm install -g node-gyp@3.6.2 \
-    npm install -g node-pre-gyp@0.6.36 \
+    npm install -g node-gyp@3.6.2 && \
+    npm install -g node-pre-gyp@0.6.36 && \
     npm install -g require-dir@0.3.2 && \
     npm install -g typescript@2.1.6 && \
     npm install -g typings@2.1.1 && \
     npm install -g wiredep@4.0.0 && \
-    npm install -g yargs@8.0.2 && \
+    npm install -g yargs@8.0.2
 
 WORKDIR /root/.bower
 
