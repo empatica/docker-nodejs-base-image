@@ -32,7 +32,8 @@ RUN npm install -g bower@1.8.0 && \
     npm install -g typescript@2.1.6 && \
     npm install -g typings@2.1.1 && \
     npm install -g wiredep@4.0.0 && \
-    npm install -g yargs@8.0.2
+    npm install -g yargs@8.0.2 && \
+    npm install -g slick-carousel@1.8.1
 
 WORKDIR /root/.bower
 
