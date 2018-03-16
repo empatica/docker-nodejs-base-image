@@ -33,7 +33,51 @@ RUN npm install -g bower@1.8.0 && \
     npm install -g typings@2.1.1 && \
     npm install -g wiredep@4.0.0 && \
     npm install -g yargs@8.0.2 && \
-    npm install -g slick-carousel@1.8.1
+    npm install -g slick-carousel@1.8.1 && \
+    npm install -g "@angular/cli@1.6.8" && \
+    npm install -g "@angular/compiler-cli@5.2.0" && \
+    npm install -g "@angular/language-service@5.2.0" && \
+    npm install -g "@types/highcharts@5.0.18" && \
+    npm install -g "@types/jasmine@2.8.3" && \
+    npm install -g "@types/jasminewd2@2.0.2" && \
+    npm install -g "@types/node@6.0.60" && \
+    npm install -g "codelyzer@4.0.1" && \
+    npm install -g "jasmine-core@2.8.0" && \
+    npm install -g "jasmine-spec-reporter@4.2.1" && \
+    npm install -g "karma@2.0.0" && \
+    npm install -g "karma-chrome-launcher@2.2.0" && \
+    npm install -g "karma-coverage-istanbul-reporter@1.2.1" && \
+    npm install -g "karma-jasmine@1.1.0" && \
+    npm install -g "karma-jasmine-html-reporter@0.2.2" && \
+    npm install -g "protractor@5.1.2" && \
+    npm install -g "ts-node@4.1.0" && \
+    npm install -g "tslint@5.9.1" && \
+    npm install -g "typescript@2.5.3" && \
+    npm install -g "@angular/animations@5.2.7" && \
+    npm install -g "@angular/common@5.2.0" && \
+    npm install -g "@angular/compiler@5.2.0" && \
+    npm install -g "@angular/core@5.2.0" && \
+    npm install -g "@angular/forms@5.2.0" && \
+    npm install -g "@angular/http@5.2.0" && \
+    npm install -g "@angular/platform-browser@5.2.0" && \
+    npm install -g "@angular/platform-browser-dynamic@5.2.0" && \
+    npm install -g "@angular/router@5.2.0" && \
+    npm install -g "@ng-bootstrap/ng-bootstrap@1.0.0" && \
+    npm install -g "angular-toastr@2.1.1" && \
+    npm install -g "bootstrap@3.3.7" && \
+    npm install -g "bootstrap-sass@3.3.7" && \
+    npm install -g "core-js@2.4.1" && \
+    npm install -g "font-awesome@4.7.0" && \
+    npm install -g "highcharts@6.0.7" && \
+    npm install -g "jquery@3.3.1" && \
+    npm install -g "jwt-decode@2.2.0" && \
+    npm install -g "moment@2.20.1" && \
+    npm install -g "ng2-file-upload@1.3.0" && \
+    npm install -g "ngx-toastr@8.3.0" && \
+    npm install -g "raven-js@3.23.1" && \
+    npm install -g "rxjs@5.5.6" && \
+    npm install -g "stacktrace-js@2.0.0" && \
+    npm install -g "zone.js@0.8.19" 
 
 WORKDIR /root/.bower
 
